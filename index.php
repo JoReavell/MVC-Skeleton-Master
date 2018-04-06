@@ -18,5 +18,7 @@
 
     require_once('views/layout.php');
         ?>
+        
+        <?= "Hello Final Project"; ?>
     </body>
 </html>
