@@ -19,6 +19,6 @@
     require_once('views/layout.php');
         ?>
         
-        <?= "Hello Final Project"; ?>
+        <?= "Hello Final Project! Am I on?"; ?>
     </body>
 </html>
