@@ -1,8 +1,13 @@
 <?php
+//Controller class contains all the functions we need to DO things to the products
+//Handles business logic and links VIEW to MODEL (front end to database)
 
 class ProductController {
     public function readAll() {
       // we store all the posts in a variable
+        //Get all the products from the database using the all() function in product.php MODEL
+        //These are then used in readAll.php and displayed.
+        
       $products = Product::all();
       require_once('views/products/readAll.php');
     }

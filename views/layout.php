@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <!-- Contains all the info for the Header and Footer of each page. 
+      We definitely need to use this sort of structure.
+      This sorts the layout of each page and what is actually displayed in the body of the page is dealt with by routes.php 
+      along with the views/products pages -->
+      
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
